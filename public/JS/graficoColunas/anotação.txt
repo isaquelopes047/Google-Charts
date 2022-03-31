@@ -1,0 +1,26 @@
+
+>E se não precisasse declarar o que é coluna e o que é 
+linha? e se a API fizesse isso pra nós automaticamente?
+
+Forma nova de declarar:
+let tabela = google.visualization.arrayToDataTable(
+        [
+            ['Mês', 'Entrada', 'Saída'],
+            ['jan', 2500, 1000],
+            ['fev', 2000, 500],
+            ['mar', 3000, 1300],
+            ['abr', 1500, 1700],
+            ['mai', 5000, 2250],
+            ['jun', 3567, 3000],
+            ['jul', 3452, 1468],
+            ['ago', 1833, 5250],
+            ['set', 3803, 5500],
+            ['out', 1800, 1000 ],
+            ['nov', 3569, 1500],
+            ['dez', 3000, 1740]   
+        ]);
+
+Perceba que eu não estou declarando addRows ou addColumn
+estou passando .arrayToDataTable e passando na primeira 
+linha as colunas com seus nomes, e logo a baixo os valores
+de cada coluna.

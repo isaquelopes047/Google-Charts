@@ -1,0 +1,17 @@
+
+
+>> Para formatar os valores como moeda precisamos acessar o eixo
+V Horrizontal, para isso usamos dentro de options o atributo
+vAxis: {format: 'currency'} e assim mundando os valores para monetarios
+
+let opcoes = {
+        title: 'Gastos por Mês',
+        width: 'auto',
+        height: 300, 
+        vAxis: {
+            format: 'currency',
+        }
+    }
+
+>> Para definir a suavidade da linha deixando ela curva use dentro de options
+a opção curveType: 'function' assim definindo a curva da linha do grafico

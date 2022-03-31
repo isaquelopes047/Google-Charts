@@ -1,0 +1,8 @@
+
+E esse eu for fazer um grafico onde as barra ficam de lado?
+e não de baixo para cima? simplesmente na criação do objeto
+vamor mudar o nome para .BarChart, ficando assim
+
+new google.visualization.BarChart
+
+let grafico = new google.visualization.BarChart(document.getElementById('id'));
