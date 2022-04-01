@@ -1,0 +1,9 @@
+
+JSON significados:
+
+Cols: Colunas
+Necessita de um tipo, então se a coluna vai receber numeros precisa especificar em 
+"type": "string"
+
+Rows: Linha
+O "c" significa a celular da linha
